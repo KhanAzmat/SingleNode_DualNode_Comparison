@@ -59,14 +59,12 @@ Both scripts include optimized NCCL and Ray configurations for distributed train
 ## Performance Results Summary
 
 ### Single Node (4 GPU) Results
-- **Model**: DeepSeek R1
-- **Date**: August 14, 2025
+- **Model**: DeepSeek R1 Distil Qwen 32 B
 - **Peak Performance**: ~1.59 requests/second, ~1,213 tokens/second
 - **Success Rate**: 100% across all load scenarios
 
 ### Dual Node (8 GPU) Results  
-- **Model**: DeepSeek R1
-- **Date**: August 15, 2025
+- **Model**: DeepSeek R1 Distil Qwen 32 B
 - **Peak Performance**: ~1.32 requests/second, ~1,021 tokens/second
 - **Success Rate**: 100% across all load scenarios
 
@@ -80,7 +78,7 @@ Both scripts include optimized NCCL and Ray configurations for distributed train
 ## Usage
 
 ### Prerequisites
-- Python 3.8+
+- Python 3.12+
 - vLLM
 - Ray
 - DeepSeek R1 model
